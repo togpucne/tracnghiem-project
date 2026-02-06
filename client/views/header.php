@@ -17,70 +17,72 @@
 
 <body>
     <div class="container-fluid p-0">
-        <div class="topnav-container p-1">
-            <nav class="navbar  navbar-expand-lg">
-                <span class="navbar-brand">
-                    <?php
-                    echo '
-                            <a class="topnav-brand " href="index.php?act=trangchu">
-                                <h1>PT QUIZ</h1>
-                            </a>
-                        ';
-                    ?>
-                </span>
-                <button class="navbar-toggler pull-xs-right d-lg-none" type="button" data-toggle="collapse"
-                    data-target="#navbar-collapse">
-                    ☰
+        <div class="topnav-container shadow-sm">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
 
-                </button>
-                <div class="d-lg-block navbar-collapse justify-content-end collapse" id="navbar-collapse">
+                <div class="container">
 
-                    <ul class="nav">
+                    <!-- Logo -->
+                    <a class="navbar-brand d-flex align-items-center fw-bold" href="index.php?act=trangchu">
 
-                        <?php
-                        echo '<li class="nav-item">
-                            <a class="nav-link" href="index.php?act=gioithieu">Giới thiệu</a>
-                        </li>';
-                        ?>
+                        <img src="public/img/ptstore.jpg" class="topnav-logo" alt="Logo">
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Chương trình học</a>
-                        </li>
+                        <span class="brand-text">PT QUIZ</span>
+                    </a>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Đề thi online</a>
-                        </li>
+                    <!-- Toggle mobile -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
+                    <!-- Menu -->
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Flashcards
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
+                        <ul class="navbar-nav align-items-center">
 
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php?act=gioithieu">
+                                    Giới thiệu
+                                </a>
+                            </li>
 
-                        <?php
-                        echo '<li class="nav-item">
-                            <a class="nav-link " href="index.php?act=dangky">
-                                Đăng ký tài khoản
-                            </a>
-                        </li>';
-                        ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Chương trình học</a>
+                            </li>
 
-                        <li class="nav-item">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Đề thi online</a>
+                            </li>
 
-                        </li>
-                        <?php
-                        echo '<li class="nav-item">
-                            <a href="index.php?act=dangnhap" class="btn btn-round btn-block btn-primary ">Đăng nhập</a>
-                        </li>';
-                        ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Flashcards</a>
+                            </li>
 
-                    </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+
+                            <li class="nav-item ms-2">
+                                <a class="nav-link" href="index.php?act=dangky">
+                                    Đăng ký
+                                </a>
+                            </li>
+
+                            <!-- Login button -->
+                            <li class="nav-item ms-2">
+                                <a href="index.php?act=dangnhap" class="btn btn-primary px-4">
+                                    Đăng nhập
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
                 </div>
+
             </nav>
         </div>
+
         <div class="main">
