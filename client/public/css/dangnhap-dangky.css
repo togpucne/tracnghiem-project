@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.login-container {
+    background: linear-gradient(135deg, #0d6efd, #6ea8fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loginform {
+    background: #fff;
+    padding: 40px 35px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+}
+
+#loginbtn {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.login-form-forgotpassword {
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    .loginform {
+        padding: 25px 20px;
+    }
+}

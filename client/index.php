@@ -7,8 +7,14 @@ include_once "views/left.php";
 if (isset($_GET['act'])) {
     $act = $_GET['act'];
     switch ($act) {
-        case 'trangchu':
-            include_once "views/trangchu.php";
+        case 'gioithieu':
+            include_once "views/gioithieu.php";
+            break;
+        case 'dangky':
+            include_once "views/dangky.php";
+            break;
+        case 'dangnhap':
+            include_once "views/dangnhap.php";
             break;
         default:
             include_once "views/trangchu.php";
