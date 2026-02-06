@@ -1,0 +1,20 @@
+<?php
+error_reporting(0);
+session_start();
+include_once "views/header.php";
+include_once "views/nav.php";
+include_once "views/left.php";
+if (isset($_GET['act'])) {
+    $act = $_GET['act'];
+    switch ($act) {
+        case 'trangchu':
+            include_once "views/trangchu.php";
+            break;
+        default:
+            include_once "views/trangchu.php";
+            break;
+    }
+} else {
+    include_once "views/trangchu.php";
+}
+include_once "views/footer.php";
