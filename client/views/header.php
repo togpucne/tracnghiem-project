@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/gioithieu.css">
     <link rel="stylesheet" href="public/css/dangnhap-dangky.css">
+    <link rel="stylesheet" href="public/css/dethi.css">
+    <link rel="stylesheet" href="public/css/trangchu.css">
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -47,21 +49,11 @@
                                 </a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Chương trình học</a>
-                            </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Đề thi online</a>
+                                <a class="nav-link" href="index.php?act=dethi">Đề thi</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Flashcards</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
 
                             <li class="nav-item ms-2">
                                 <a class="nav-link" href="index.php?act=dangky">

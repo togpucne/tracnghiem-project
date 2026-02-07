@@ -3,7 +3,7 @@
         <div class="loginform">
 
             <h1 class="login-heading mb-4">
-                Đăng ký tài khoản
+                Đăng ký
             </h1>
 
             <form class="login-form" action="/register" method="post">
