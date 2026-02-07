@@ -89,28 +89,31 @@
     ĐỀ THI 
 ========================= */
 
-
 .home-section {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 .home-h2 {
   text-align: center;
   font-weight: 700;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
+  font-size: 26px;
 }
 
 
+/* GRID */
 
 .testitem-grid {
-  row-gap: 25px;
+  row-gap: 24px;
 }
 
 
+/* CARD */
+
 .testitem-wrapper {
-  background: #fff;
+  background: #f8f9fc;
   border-radius: 14px;
-  padding: 20px;
+  padding: 22px;
 
   height: 100%;
   display: flex;
@@ -118,90 +121,158 @@
   justify-content: space-between;
 
   border: 1px solid #eee;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 
-  transition: 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .testitem-wrapper:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.08);
 }
 
 
-.testitem-title {
+/* TITLE */
 
+.testitem-title {
   font-size:16px;
   font-weight:600;
   line-height:1.4;
 
-  min-height: calc(1.4em * 2); /* giữ card cao đều */
+  margin-bottom:12px;
 
   display:-webkit-box;
  
+  -webkit-box-orient:vertical;
 
   overflow:hidden;
 }
 
 
-
+/* INFO */
 
 .testitem-info-wrapper {
-  font-size: 14px;
-  color: #6b7280;
+  font-size:14px;
+  color:#6b7280;
 }
 
 .testitem-info {
-  display: block;
-  margin-bottom: 6px;
+  display:block;
+  margin-bottom:6px;
 }
 
 
+/* TAG */
 
 .testitem-tags {
-  margin-top: 10px;
+  margin-top:12px;
 }
 
 .tag {
-  display: inline-block;
-  background: #eef2ff;
-  color: #3b5bdb;
+  display:inline-block;
 
-  padding: 4px 12px;
-  border-radius: 30px;
-  font-size: 13px;
+  background:#eef2ff;
+  color:#3b5bdb;
 
-  margin-right: 6px;
+  padding:4px 12px;
+  border-radius:30px;
+  font-size:13px;
+  font-weight:500;
+
+  margin-right:6px;
+  margin-bottom:6px;
+
+  transition:0.2s;
+}
+
+.tag:hover {
+  background:#3b5bdb;
+  color:#fff;
 }
 
 
+/* BUTTON */
 
 .btn-detail {
-  margin-top: 15px;
-  width: 100%;
-  border-radius: 8px;
-  font-weight: 500;
+  margin-top:18px;
+  width:100%;
+  border-radius:8px;
+  font-weight:500;
+
+  transition:0.2s;
+}
+
+.btn-detail:hover {
+  transform:scale(1.02);
 }
 
 
 
-/* Mobile nhỏ */
-@media (max-width: 576px) {
-  .testitem-title {
-    font-size: 14px;
+
+/* Mobile nhỏ (iphone SE etc) */
+@media (max-width: 480px) {
+
+  .home-section {
+    padding:30px 0;
   }
+
+  .home-h2 {
+    font-size:20px;
+  }
+
+  .testitem-wrapper {
+    padding:16px;
+  }
+
+  .testitem-title {
+    font-size:14px;
+  }
+
 }
 
-/* Tablet */
-@media (min-width: 768px) {
+
+/* Mobile lớn */
+@media (min-width: 481px) and (max-width: 767px) {
+
   .testitem-title {
-    font-size: 15px;
+    font-size:15px;
   }
+
 }
 
-/* Desktop */
-@media (min-width: 1200px) {
+
+/* Tablet dọc */
+@media (min-width:768px) and (max-width:991px){
+
   .testitem-title {
-    font-size: 17px;
+    font-size:15px;
   }
+
+}
+
+
+/* Laptop nhỏ */
+@media (min-width:992px) and (max-width:1199px){
+
+  .testitem-title {
+    font-size:16px;
+  }
+
+}
+
+
+/* Desktop lớn */
+@media (min-width:1200px){
+
+  .home-h2 {
+    font-size:28px;
+  }
+
+  .testitem-title {
+    font-size:17px;
+  }
+
 }
