@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?= $title ?? "PT QUIZ" ?></title>
+
     <link rel="stylesheet" href="public/css/style.css">
-    <link rel="stylesheet" href="public/css/gioithieu.css">
-    <link rel="stylesheet" href="public/css/dangnhap-dangky.css">
-    <link rel="stylesheet" href="public/css/dethi.css">
-    <link rel="stylesheet" href="public/css/lambai.css">
-    <link rel="stylesheet" href="public/css/trangchu.css">
+
+    <?php if (!empty($page_css)) : ?>
+        <link rel="stylesheet" href="public/css/<?= $page_css ?>">
+    <?php endif; ?>
+
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
