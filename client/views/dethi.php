@@ -168,7 +168,7 @@
                             </div>
 
                             <div class="card-footer bg-white border-0">
-                                <a href="#" class="btn btn-outline-primary w-100">
+                                <a href="index.php?act=lambai" class="btn btn-outline-primary w-100">
                                     Làm bài
                                 </a>
                             </div>
