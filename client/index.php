@@ -16,6 +16,9 @@ if (isset($_GET['act'])) {
         case 'dethi':
             include_once "views/dethi.php";
             break;
+        case 'lambai':
+            include_once "views/lambai.php";
+            break;
         case 'dangky':
             include_once "views/dangky.php";
             break;
