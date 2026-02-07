@@ -1,0 +1,207 @@
+/* =========================
+   CSS CHUNG
+========================= */
+
+.home-section {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.homeSwiper {
+  width: 100%;
+}
+
+/* =========================
+   CAROUSEL
+========================= */
+
+.banner-img {
+  width: 100%;
+  height: 520px; /* default desktop */
+  object-fit: cover; /* giữ tỉ lệ, không méo */
+  object-position: center;
+  display: block;
+}
+
+/* Large desktop (>= 1600px) */
+@media (min-width: 1600px) {
+  .banner-img {
+    height: 650px;
+  }
+}
+
+/* Desktop lớn */
+@media (max-width: 1400px) {
+  .banner-img {
+    max-height: 520px;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1200px) {
+  .banner-img {
+    height: 420px;
+  }
+}
+
+/* Tablet landscape */
+@media (max-width: 992px) {
+  .banner-img {
+    height: 300px;
+  }
+}
+
+/* Tablet portrait */
+@media (max-width: 768px) {
+  .banner-img {
+    max-height: 230px;
+  }
+}
+
+/* Mobile lớn */
+@media (max-width: 576px) {
+  .banner-img {
+    max-height: 200px;
+  }
+}
+
+/* Mobile nhỏ */
+@media (max-width: 476px) {
+  .banner-img {
+    max-height: 150px;
+  }
+}
+
+/* iPhone nhỏ / màn hình cực nhỏ */
+@media (max-width: 370px) {
+  .banner-img {
+    max-height: 100px;
+  }
+}
+
+/* iPhone nhỏ / màn hình cực nhỏ */
+@media (max-width: 220px) {
+  .banner-img {
+    max-height: 80px;
+  }
+}
+/* =========================
+    ĐỀ THI 
+========================= */
+
+
+.home-section {
+  padding: 40px 0;
+}
+
+.home-h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+
+
+.testitem-grid {
+  row-gap: 25px;
+}
+
+
+.testitem-wrapper {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 1px solid #eee;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+
+  transition: 0.25s ease;
+}
+
+.testitem-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.testitem-title {
+
+  font-size:16px;
+  font-weight:600;
+  line-height:1.4;
+
+  min-height: calc(1.4em * 2); /* giữ card cao đều */
+
+  display:-webkit-box;
+ 
+
+  overflow:hidden;
+}
+
+
+
+
+.testitem-info-wrapper {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.testitem-info {
+  display: block;
+  margin-bottom: 6px;
+}
+
+
+
+.testitem-tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef2ff;
+  color: #3b5bdb;
+
+  padding: 4px 12px;
+  border-radius: 30px;
+  font-size: 13px;
+
+  margin-right: 6px;
+}
+
+
+
+.btn-detail {
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+
+
+/* Mobile nhỏ */
+@media (max-width: 576px) {
+  .testitem-title {
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .testitem-title {
+    font-size: 15px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .testitem-title {
+    font-size: 17px;
+  }
+}
