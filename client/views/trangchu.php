@@ -39,7 +39,7 @@
     <div class="container">
 
         <h2 class="home-h2" id="de-thi-moi-nhat">Đề thi mới nhất</h2>
-        
+
 
         <div class="row g-3">
 
@@ -213,7 +213,7 @@
                         <div class="testitem-tags">
                             <span class="tag">IQ</span>
                             <span class="tag">Logic</span>
-                            
+
                         </div>
                     </a>
                     <a href="#" class="btn btn-outline-primary btn-detail">Chi tiết</a>
@@ -226,6 +226,96 @@
 </div>
 
 <!--  End Đề thi -->
+<!-- Banner-->
+<div class="container-fluid">
+    <section class="testonline-banner">
+        <img src="/tracnghiem-project/web-project/client/public/img/testonline_banner.jpg"
+            alt="Test Online Banner">
+    </section>
+
+</div>
+<!-- End Banner  -->
+
+<!-- Tư vấn -->
+
+<div class="home-section">
+
+    <div class="container"> <!-- QUAN TRỌNG -->
+
+        <h1 class="home-title">
+            Phần mềm luyện thi online - PT QUIZ
+        </h1>
+
+        <div class="row align-items-start quiz-section">
+
+            <!-- LEFT -->
+            <div class="col-12 col-lg-8">
+
+                <div class="quiz-content">
+
+                    <p>
+                        PT QUIZ là nền tảng luyện thi trắc nghiệm online giúp người học ôn tập hiệu quả
+                        với nhiều chủ đề như TOEIC, IELTS, Lập trình, Toán học và nhiều lĩnh vực khác.
+                    </p>
+
+                    <p>
+                        Hệ thống mô phỏng đề thi thật, cung cấp ngân hàng câu hỏi đa dạng,
+                        luyện tập theo chủ đề hoặc làm đề full test.
+                    </p>
+
+                    <p>
+                        Theo dõi tiến độ học tập, thống kê kết quả chi tiết và gợi ý lộ trình phù hợp.
+                    </p>
+
+                    <p class="highlight-text">
+                        Luyện tập miễn phí ngay hôm nay cùng PT QUIZ!
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT FORM -->
+            <div class="col-12 col-lg-4">
+
+                <div class="quiz-form">
+
+                    <h3 class="form-title">Tư vấn lộ trình học</h3>
+
+                    <form>
+
+                        <input class="form-control" placeholder="Họ tên*" required>
+
+                        <input class="form-control" placeholder="Số điện thoại*" required>
+
+                        <input class="form-control" placeholder="Khu vực học*" required>
+
+                        <select class="form-control">
+                            <option>Môn học bạn quan tâm</option>
+                            <option>TOEIC</option>
+                            <option>IELTS</option>
+                            <option>Lập trình</option>
+                            <option>Toán học</option>
+                        </select>
+
+                        <button class="btn btn-primary btn-submit">
+                            Đăng ký tư vấn miễn phí
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--End Tư vấn -->
+
 
 
 
