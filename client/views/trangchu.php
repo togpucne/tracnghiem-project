@@ -8,7 +8,7 @@
             <!-- Slide 1 -->
             <div class="swiper-slide">
                 <a href="#">
-                    <img src="/tracnghiem-project/web-project/client/public/img/luyen_de.webp"
+                    <img src="/tracnghiem-project/web-project/client/public/img/luyen_de.png"
                         class="banner-img">
                 </a>
             </div>
@@ -16,7 +16,7 @@
             <!-- Slide 2 -->
             <div class="swiper-slide">
                 <a href="#">
-                    <img src="/tracnghiem-project/web-project/client/public/img/luyen_de.webp"
+                    <img src="/tracnghiem-project/web-project/client/public/img/luyen_de.png"
                         class="banner-img">
                 </a>
             </div>
