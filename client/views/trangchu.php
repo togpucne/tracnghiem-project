@@ -34,6 +34,10 @@
 
 </div>
 <!-- End Carousel -->
+
+
+
+
 <!--  Đề thi -->
 <div class="home-section">
     <div class="container">
@@ -222,8 +226,124 @@
 
     </div>
 </div>
-
 <!--  End Đề thi -->
+
+
+
+<!-- KHÓA HỌC NỔI BẬT -->
+<div class="home-section course-section">
+
+    <div class="container">
+
+        <h2 class="home-title text-center">
+            Khóa học online nổi bật
+        </h2>
+
+        <div class="swiper courseSwiper">
+
+            <div class="swiper-wrapper">
+
+                <!-- CARD 1 -->
+                <div class="swiper-slide">
+                    <div class="course-card">
+
+                        <img src="public/img/toeic_1_1.webp" class="course-img">
+
+                        <div class="course-body">
+
+                            <h5 class="course-title">
+                                TOEIC Listening & Reading Full Test
+                            </h5>
+
+                            <div class="course-rating">
+                                ⭐⭐⭐⭐☆ (260)
+                            </div>
+
+                            <span class="course-tag">
+                                #Phần mềm online
+                            </span>
+
+                            <div class="course-price">
+                                <span class="price-new">799.000đ</span>
+                                <span class="price-old">989.000đ</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- CARD COPY thêm -->
+                <div class="swiper-slide">
+                    <div class="course-card">
+
+                        <img src="public/img/toeic_1_2.webp" class="course-img">
+
+                        <div class="course-body">
+
+                            <h5 class="course-title">
+                                IELTS Fundamentals
+                            </h5>
+
+                            <div class="course-rating">
+                                ⭐⭐⭐⭐☆ (211)
+                            </div>
+
+                            <span class="course-tag">
+                                #Phần mềm online
+                            </span>
+
+                            <div class="course-price">
+                                <span class="price-new">799.000đ</span>
+                                <span class="price-old">989.000đ</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- CARD COPY thêm -->
+                <div class="swiper-slide">
+                    <div class="course-card">
+
+                        <img src="public/img/toeic_1_3.webp" class="course-img">
+
+                        <div class="course-body">
+
+                            <h5 class="course-title">
+                                IELTS Fundamentals
+                            </h5>
+
+                            <div class="course-rating">
+                                ⭐⭐⭐⭐☆ (211)
+                            </div>
+
+                            <span class="course-tag">
+                                #Phần mềm online
+                            </span>
+
+                            <div class="course-price">
+                                <span class="price-new">799.000đ</span>
+                                <span class="price-old">989.000đ</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- END KHÓA HỌC NỔI BẬT -->
+
+
 <!-- Banner-->
 <div class="container-fluid">
     <section class="testonline-banner">
@@ -339,4 +459,38 @@
             prevEl: ".swiper-button-prev",
         },
     });
+</script>
+
+<script>
+    const courseSwiper = new Swiper(".courseSwiper", {
+
+    spaceBetween: 20,
+
+    pagination: {
+        el: ".courseSwiper .swiper-pagination",
+        clickable: true,
+    },
+
+    breakpoints: {
+
+        0: {
+            slidesPerView: 1.2,
+        },
+
+        576: {
+            slidesPerView: 2,
+        },
+
+        992: {
+            slidesPerView: 3,
+        },
+
+        1200: {
+            slidesPerView: 3,
+        }
+
+    }
+
+});
+
 </script>
