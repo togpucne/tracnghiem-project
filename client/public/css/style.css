@@ -220,3 +220,108 @@ a:hover {
         font-size: 18px;
     }
 }
+
+
+
+/* ===== SITE ELEVATOR ===== */
+
+.site-elevator {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* ITEM */
+
+.elevator-item {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.elevator-item:hover {
+    transform: translateY(-4px);
+}
+
+/* SCROLL TOP */
+
+.site-scrollTop {
+    background: #0d6efd;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.site-scrollTop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/* Tablet */
+@media (max-width: 991px) {
+
+    .site-elevator {
+        right: 15px;
+        bottom: 80px;
+    }
+
+    .elevator-item {
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+    .site-elevator {
+        right: 10px;
+        bottom: 70px;
+        gap: 8px;
+    }
+
+    .elevator-item {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
+
+
+@keyframes shakeBox {
+
+    0% { transform: translateX(0); }
+
+    10% { transform: translateY(-4px); }
+    30% { transform: translateX(-3px); }
+    40% { transform: translateX(3px); }
+
+    50% { transform: translateY(0); }
+
+    100% { transform: translateX(0); }
+
+}
+
+/* áp dụng animation */
+.elevator-item  {
+    animation: shakeBox 2.5s ease-in-out infinite;
+}
+
+
+/* =====End  SITE ELEVATOR ===== */
