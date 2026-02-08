@@ -16,7 +16,7 @@
             <!-- Slide 2 -->
             <div class="swiper-slide">
                 <a href="#">
-                    <img src="/tracnghiem-project/web-project/client/public/img/luyen_de.png"
+                    <img src="/tracnghiem-project/web-project/client/public/img/luyen_de_1.png"
                         class="banner-img">
                 </a>
             </div>
@@ -38,9 +38,7 @@
 <div class="home-section">
     <div class="container">
 
-        <h2 class="home-h2" id="de-thi-moi-nhat">Đề thi mới nhất</h2>
-
-
+        <h1 class="home-title" id="de-thi-moi-nhat">Đề thi mới nhất</h1>
         <div class="row g-3">
 
             <!-- TOEIC -->
@@ -229,7 +227,7 @@
 <!-- Banner-->
 <div class="container-fluid">
     <section class="testonline-banner">
-        <img src="/tracnghiem-project/web-project/client/public/img/testonline_banner.jpg"
+        <img src="/tracnghiem-project/web-project/client/public/img/testonline_banner.png"
             alt="Test Online Banner">
     </section>
 
