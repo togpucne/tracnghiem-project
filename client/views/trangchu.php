@@ -235,9 +235,9 @@
 
     <div class="container">
 
-        <h2 class="home-title text-center">
+        <h1 class="home-title text-center">
             Khóa học online nổi bật
-        </h2>
+        </h1>
 
         <div class="swiper courseSwiper">
 
@@ -311,20 +311,20 @@
                         <div class="course-body">
 
                             <h5 class="course-title">
-                                IELTS Fundamentals
+                                TOEIC Speaking & Writing Intensive
                             </h5>
 
                             <div class="course-rating">
-                                ⭐⭐⭐⭐☆ (211)
+                                ⭐⭐⭐⭐⭐ (145)
                             </div>
 
                             <span class="course-tag">
-                                #Phần mềm online
+                                #TOEIC nâng cao
                             </span>
 
                             <div class="course-price">
-                                <span class="price-new">799.000đ</span>
-                                <span class="price-old">989.000đ</span>
+                                <span class="price-new">699.000đ</span>
+                                <span class="price-old">899.000đ</span>
                             </div>
 
                         </div>
@@ -345,7 +345,7 @@
 
 
 <!-- Banner-->
-<div class="container-fluid">
+<div class="container-fluid" style="margin-top: 20px;">
     <section class="testonline-banner">
         <img src="/tracnghiem-project/web-project/client/public/img/testonline_banner.png"
             alt="Test Online Banner">
@@ -356,7 +356,7 @@
 
 <!-- Tư vấn -->
 
-<div class="home-section">
+<div class="home-section" style="margin-top: 20px;">
 
     <div class="container"> <!-- QUAN TRỌNG -->
 
@@ -464,33 +464,32 @@
 <script>
     const courseSwiper = new Swiper(".courseSwiper", {
 
-    spaceBetween: 20,
+        spaceBetween: 20,
 
-    pagination: {
-        el: ".courseSwiper .swiper-pagination",
-        clickable: true,
-    },
-
-    breakpoints: {
-
-        0: {
-            slidesPerView: 1.2,
+        pagination: {
+            el: ".courseSwiper .swiper-pagination",
+            clickable: true,
         },
 
-        576: {
-            slidesPerView: 2,
-        },
+        breakpoints: {
 
-        992: {
-            slidesPerView: 3,
-        },
+            0: {
+                slidesPerView: 1.2,
+            },
 
-        1200: {
-            slidesPerView: 3,
+            576: {
+                slidesPerView: 2,
+            },
+
+            992: {
+                slidesPerView: 3,
+            },
+
+            1200: {
+                slidesPerView: 3,
+            }
+
         }
 
-    }
-
-});
-
+    });
 </script>
