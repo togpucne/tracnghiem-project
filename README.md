@@ -31,11 +31,9 @@ Dự án tập trung vào các nội dung:
 
 Hệ thống được thiết kế theo mô hình client-server với API làm trung gian:
 
-
 <p align="center">
   <img src="client/public/img/kientruc.png" width="700">
 </p>
-
 
 Trong đó:
 
