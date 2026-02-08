@@ -1,5 +1,5 @@
 <!-- Carousel  -->
-<div class="home-section">
+<div class="home-section pt-0 mt-0">
 
     <div class="swiper homeSwiper">
 
@@ -8,16 +8,14 @@
             <!-- Slide 1 -->
             <div class="swiper-slide">
                 <a href="#">
-                    <img src="/tracnghiem-project/web-project/client/public/img/luyen_de.png"
-                        class="banner-img">
+                    <img src="public/img/luyen_de.png" class="banner-img">
                 </a>
             </div>
 
             <!-- Slide 2 -->
             <div class="swiper-slide">
                 <a href="#">
-                    <img src="/tracnghiem-project/web-project/client/public/img/luyen_de_1.png"
-                        class="banner-img">
+                    <img src="public/img/luyen_de_1.png" class="banner-img">
                 </a>
             </div>
 
@@ -347,8 +345,7 @@
 <!-- Banner-->
 <div class="container-fluid" style="margin-top: 20px;">
     <section class="testonline-banner">
-        <img src="/tracnghiem-project/web-project/client/public/img/testonline_banner.png"
-            alt="Test Online Banner">
+        <img src="public/img/testonline_banner.png" alt="Test Online Banner">
     </section>
 
 </div>
@@ -358,7 +355,8 @@
 
 <div class="home-section" style="margin-top: 20px;">
 
-    <div class="container"> <!-- QUAN TRỌNG -->
+    <div class="container">
+        <!-- QUAN TRỌNG -->
 
         <h1 class="home-title">
             Phần mềm luyện thi online - PT QUIZ
