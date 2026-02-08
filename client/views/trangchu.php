@@ -247,7 +247,7 @@
                 <div class="swiper-slide">
                     <div class="course-card">
 
-                        <img src="public/img/toeic_1_1.webp" class="course-img">
+                        <img src="public/img/1.png" class="course-img">
 
                         <div class="course-body">
 
@@ -277,7 +277,7 @@
                 <div class="swiper-slide">
                     <div class="course-card">
 
-                        <img src="public/img/toeic_1_2.webp" class="course-img">
+                        <img src="public/img/2.png" class="course-img">
 
                         <div class="course-body">
 
@@ -306,7 +306,7 @@
                 <div class="swiper-slide">
                     <div class="course-card">
 
-                        <img src="public/img/toeic_1_3.webp" class="course-img">
+                        <img src="public/img/3.png" class="course-img">
 
                         <div class="course-body">
 
